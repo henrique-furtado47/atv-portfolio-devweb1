@@ -21,6 +21,15 @@ p {
   line-height: 130%;
 }
 
+section h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* ============================================================================================
                                 ESPECÍFICO   
    ============================================================================================                            
@@ -57,15 +66,10 @@ section.posts {
   padding: 10px;
 }
 
-section.posts h2 {
-  text-align: center;
-  margin: 5px;
-}
-
 section.posts ul li {
   background: white;
   padding: 15px;
-  margin: 12px 10px 12px 10px;
+  margin: 12px 0px 12px 0px;
 }
 
 section.posts ul li h3 {
@@ -77,4 +81,47 @@ section.posts ul li h3 {
 section.posts ul li p {
   font-size: 1rem;
   margin: 15px 0px 15px 0px;
+}
+
+section.works {
+  padding: 20px 10px 20px 10px;
+}
+
+section.works ul li {
+  margin: 10px 0px 10px 0px;
+}
+
+section.works ul li h3 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 130%;
+}
+
+section.works ul li p.info {
+  color: #8695a4;
+}
+
+section.works ul li p {
+  margin: 10px 0;
+}
+
+section.works ul li p.info span {
+  color: white;
+  background: #142850;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+
+section.works ul {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  font-size: 2.3rem;
+  margin: 20px 15px;
 }
