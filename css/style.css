@@ -31,7 +31,7 @@ img {
 }
 
 /* ============================================================================================
-                                ESPECÍFICO   
+                                FOOTER E HEADER   
    ============================================================================================                            
 */
 
@@ -40,6 +40,18 @@ header ul li {
   padding: 10px 0 10px 0;
 }
 
+footer {
+  text-align: center;
+}
+
+footer a {
+  font-size: 2.3rem;
+  margin: 20px 15px;
+}
+/* ============================================================================================
+                                ESPECÍFICO   
+   ============================================================================================                            
+*/
 section.banner {
   text-align: center;
   padding: 0 5% 0 5%;
@@ -117,17 +129,10 @@ section.works ul {
   border-bottom: 1px solid #e0e0e0;
 }
 
-footer {
-  text-align: center;
-}
-
-footer a {
-  font-size: 2.3rem;
-  margin: 20px 15px;
-}
-
-/* PAGINA FT-WORKS*/
-
+/* ============================================================================================
+                                PAGINA FT-WORKS   
+   ============================================================================================                            
+*/
 section.dashb {
   padding: 20px 10px 20px 10px;
 }
@@ -148,6 +153,7 @@ section.dashb ul li h3 {
 
 section.dashb ul li p {
   margin: 10px 0;
+  color: black;
 }
 
 section.dashb ul li p.info {
