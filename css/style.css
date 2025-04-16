@@ -171,3 +171,61 @@ section.dashb ul li p.info span {
   padding: 5px 10px;
   font-weight: bold;
 }
+
+/* ============================================================================================
+                                        TELA PC
+   ============================================================================================                            
+*/
+@media (min-width: 900px) {
+  header ul {
+    display: flex;
+    justify-content: right;
+  }
+
+  header ul li {
+    margin: 0px 20px 0px 20px;
+  }
+
+  section h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+
+  section.banner {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: left;
+    padding: 5vw 10vw 5vw 10vw;
+  }
+
+  section.banner .texto {
+    margin-right: 7vw;
+  }
+
+  section.posts,
+  section.works {
+    padding: 5vw 10vw 5vw 10vw;
+  }
+
+  section.posts ul,
+  section.works ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.posts ul li {
+    padding: 2%;
+  }
+  section.posts ul li,
+  section.works ul li {
+    width: 45%;
+  }
+
+  section.posts ul li p.data {
+    margin: 20px 0 20px;
+  }
+
+  section.works ul {
+    border-bottom: none;
+  }
+}
